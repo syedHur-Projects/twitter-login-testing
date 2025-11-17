@@ -28,10 +28,11 @@
 - No error message is displayed.
 
 **Actual Result:**
-- (To be filled during execution)
+- User is successfully logged in and redirected to the Home/Timeline page.
+- No error message is displayed.
 
 **Status:**
-- (Pass/Fail)
+- (Pass)
 
 **Comments:**
 - (Optional)
@@ -64,10 +65,12 @@
 - User remains on the login screen.
 
 **Actual Result:**
-- (To be filled during execution)
+- User is not logged in.
+- An appropriate error message is displayed indicating invalid credentials.
+- User remains on the login screen.
 
 **Status:**
-- (Pass/Fail)
+- (Pass)
 
 **Comments:**
 - (Optional)
@@ -101,10 +104,13 @@
   - An error message indicates that the identifier field is required.
 
 **Actual Result:**
-- (To be filled during execution)
+- Login attempt is not successful.
+- Either:
+  - A validation message appears near the username/email field, or
+  - An error message indicates that the identifier field is required.
 
 **Status:**
-- (Pass/Fail)
+- (Pass)
 
 **Comments:**
 - (Optional)
@@ -138,10 +144,13 @@
   - An error message indicates that the password is required.
 
 **Actual Result:**
-- (To be filled during execution)
+- Login attempt is not successful.
+- Either:
+  - A validation message appears near the password field, or
+  - An error message indicates that the password is required.
 
 **Status:**
-- (Pass/Fail)
+- (Pass)
 
 **Comments:**
 - (Optional)
@@ -170,10 +179,11 @@
 - Page should request email/username/phone or similar recovery identifier.
 
 **Actual Result:**
-- (To be filled during execution)
+- User is redirected to the Twitter password recovery flow/page.
+- Page should request email/username/phone or similar recovery identifier.
 
 **Status:**
-- (Pass/Fail)
+- (Pass)
 
 **Comments:**
 - (Optional)
