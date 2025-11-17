@@ -15,7 +15,8 @@ This document lists what we are testing on the Twitter (X) login page.
 
 ## Out of Scope (for now)
 - Signup flow
-- Forgot-password full flow (reset via email/SMS backend)
+- Full forgot-password backend flow (email/SMS)
 - Multi-factor authentication (2FA)
 - API-level testing
 - Performance/load testing
+

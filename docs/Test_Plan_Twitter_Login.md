@@ -15,7 +15,7 @@ This test plan covers manual testing of the Twitter (X) login functionality on t
 **Out of Scope**
 - Signup and account creation
 - Full password reset process (email/SMS backend)
-- 2FA / OTP flows
+- Two-factor authentication (2FA)
 - Mobile app (Android/iOS)
 - Performance and load testing
 
