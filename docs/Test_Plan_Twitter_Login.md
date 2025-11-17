@@ -1,30 +1,49 @@
-# Test Plan — Twitter Login
+# Test Plan – Twitter Login
 
-## Scope
-In-scope:
-- Login page: input validations, error messages, redirect to home, forgot-password link.
+## 1. Introduction
+This test plan covers manual testing of the Twitter (X) login functionality on the web login page (`https://x.com/login`).
 
-Out-of-scope:
-- Signup flow
-- Multi-factor authentication
-- API load testing
+## 2. Scope
+**In Scope**
+- Login using email/username/phone + password
+- Input validation and error messages
+- Redirect to Home/Timeline on successful login
+- "Forgot password?" link navigation
+- Basic UI checks on the login page
+- Basic session behavior (stay logged in after login)
 
-## Test Types
-- Functional
-- Negative
-- UI
-- Basic Security
-- Regression (baseline)
+**Out of Scope**
+- Signup and account creation
+- Full password reset process (email/SMS backend)
+- 2FA / OTP flows
+- Mobile app (Android/iOS)
+- Performance and load testing
 
-## Environment
+## 3. Test Types
+- Functional testing
+- Negative testing
+- UI/UX testing
+- Basic security checks (password masking, logout behavior)
+- Regression baseline (re-run key tests after changes)
+
+## 4. Test Environment
 - URL: https://x.com/login
+- Environment: Production
 - Browser: Chrome (latest)
-- OS: Windows 10  (Dell Corei5 8th gen)
+- OS: Windows 10 / 11 (local machine)
+- Test Account: Personal Twitter test account (credentials not stored in repo)
 
-## Entry Criteria
+## 5. Entry Criteria
 - Login page is accessible
-- Test account is available
+- Test account exists and is active
 
-## Exit Criteria
-- All high priority test cases executed
-- All critical/high severity bugs fixed or accepted with mitigation
+## 6. Exit Criteria
+- All high priority test cases are executed
+- All Critical/High severity bugs are fixed or accepted with mitigation
+- No open blocker defects related to login
+
+## 7. Deliverables
+- Test_Scenarios_Login.md
+- Test_Cases_Login.md
+- Bug_Reports.md (and Jira bugs)
+- Test_Summary_Twitter_Login.md
